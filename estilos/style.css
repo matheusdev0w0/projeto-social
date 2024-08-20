@@ -2,26 +2,50 @@
     padding: 0;
     margin: 0;
 }
-html,body {
+ html,body {
+    background: black url(../imagens/fundo-madeira.jpg) center no-repeat fixed;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
-}
-body {
-    background : black url(../imagens/fundo-madeira.jpg) center top no-repeat fixed;
-    background-size: cover;
-    background-attachment: fixed;
-}
-main {
+ }
+ main {
     height: 100vh;
-}
-section#telefone {
-
+ }
+ section#telefone {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%,-50%);
+    background: url(../imagens/frame-iphone.png) center no-repeat;
+    background-size: cover;
 
-    height: 627px;
     width: 311px;
-    background: url(../imagens/frame-iphone.png) center center no-repeat;
-}
+    height: 627px;
+ }
+ iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+ }
+ section#redes {
+    text-align: right;
+
+ }
+ section#redes img {
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 16px 5px black;
+    margin: 10px;
+    box-sizing: border-box;
+ }
+ section#redes img:hover {
+
+    border: 2px solid rgb(0, 24, 241);
+    transform: translate(-3px, -3px);
+    transition: 0.2s;
+
+ }
