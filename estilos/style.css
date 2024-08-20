@@ -12,9 +12,10 @@
     height: 100vh;
  }
  section#telefone {
+   margin-top: 50px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 50%; 
     transform: translate(-50%,-50%);
     background: url(../imagens/frame-iphone.png) center no-repeat;
     background-size: cover;
@@ -23,11 +24,13 @@
     height: 627px;
  }
  iframe#tela {
+   margin-top: 50px;
     position: relative;
-    top: 80px;
+    top: 29px;
     left: 22px;
     width: 268px;
     height: 472px;
+    border-radius: 5px;
  }
  section#redes {
     text-align: center;
