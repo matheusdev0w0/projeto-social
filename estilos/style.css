@@ -7,7 +7,7 @@
     background-size: cover;
  }
  section#telefone {
-   margin-top: 10px;
+   margin-top: 18vh;
     position: absolute;
     left: 50%;
     top: 50%; 
@@ -19,10 +19,10 @@
     height: 627px;
  }
  iframe#tela {
-   margin-top: 10px;
+   margin-top: 10vh;
     position: relative;
-    top: 68px;
-    left: 22px;
+    top: 14px;
+    left: 22px;   
     width: 268px;
     height: 472px;
     border-radius: 5px;
