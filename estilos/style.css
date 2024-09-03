@@ -7,7 +7,7 @@
     background-size: cover;
  }
  section#telefone {
-   margin-top: 18vh;
+   margin-top: 130px;
     position: absolute;
     left: 50%;
     top: 50%; 
@@ -28,7 +28,7 @@
     border-radius: 5px;
  }
  section#redes {
-   margin-top: 10vh;
+   margin-top: 60px;
     text-align: center;
 
  }
